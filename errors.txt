@@ -1,0 +1,11 @@
+AZ104
+
+Lab 03a
+
+Task 2:
+
+step 5: 
+
+Resource group referenced in steps is rg2, the lab has deployed
+rg1,rg3,rg4. rg2 prefixed is missing
+
