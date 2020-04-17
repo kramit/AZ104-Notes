@@ -9,3 +9,54 @@ step 5:
 Resource group referenced in steps is rg2, the lab has deployed
 rg1,rg3,rg4. rg2 prefixed is missing
 
+
+Lab 03b
+
+Ex1 Task 2 Step 8
+
+Original:
+On the Edit parameters blade, click Load file and upload the parameters file \Allfiles\Labs\03\az104-03b-md-parameters.json and save the changes.
+
+
+The location \Allfiles\Labs\03\az104-03b-md-parameters.json does not exist. This should say
+
+"upload the parameters.json file from the template zip you previously downloaded"
+
+
+Lab 03c
+
+Exercise 1: Task1
+
+Cloud share storeage cannot be auto created becuase it attempts to make a new resource group to do it
+instruction need to be ammended to say
+
+if encounter an error creating cloud share storage click advanced and use the following settings
+
+resourcegroup: use existing, rg1xxxx
+storage account name: use unqiue
+file share name: use unqiue
+
+then created
+
+
+Task 3 step 1:
+
+$rgName = az104-03a-rg4-XXXXXX  replace with 
+
+$rgName = "az104-03a-rg4-XXXXXX"
+
+
+Lab 03d
+
+Exercise 1: Task 1
+
+Cloud shell already created in the previous lab, steps not needed
+
+Task 2: step 1
+
+commands are referencing an rg group with prefix 03d, the rg groups created are from the previous labs and are prefixed
+with 03a
+
+RESOURCEGROUP='az104-03d-rg1-XXXXXX' changes to RESOURCEGROUP='az104-03a-rg1-XXXXXX'
+
+
