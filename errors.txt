@@ -60,3 +60,15 @@ with 03a
 RESOURCEGROUP='az104-03d-rg1-XXXXXX' changes to RESOURCEGROUP='az104-03a-rg1-XXXXXX'
 
 
+Lab 04
+
+Task6 step 2
+
+az104-04-rg1  should read az104-04-rg1-XXXXXXX
+
+
+step 8: cloud shell launch failue
+
+see lab 03c step 1 error. There is no cloud shell storage and a warning box needs to say create it
+by using the unique values and the existing rg as it cannot be auto created with a new rg
+
