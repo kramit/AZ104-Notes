@@ -41,6 +41,7 @@ docker rm $(docker ps -a -q)
 ## Docker Compose
 
 *run in the same dir as docker compose file*
+
 docker-compose up
 docker-compose up -d < run in the background
 
