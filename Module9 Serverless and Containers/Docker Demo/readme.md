@@ -1,4 +1,12 @@
-# Hello world PHP
+# Docker container and docker compose demo
+
+Hello World PHP is a single docker container built with a dockerfile to run a simple index PHP with hello world
+
+DockerCompose has a compose file to build 2 containers that communicate
+API container running python flask to return an JSON list and webserver container to call the API container and list the JSON
+
+
+## Hello world PHP
 
 ### Image used 
 
@@ -20,7 +28,7 @@ docker build -t hello-world .
 docker run -p 80:80 hello-world
 
 *running with volume map*
-
+*terminal needs to be in the local src dir for pwd to get the right path*
 
 docker run -p 80:80 -v "$(pwd):/var/www/html"  hello-world
 
@@ -28,3 +36,23 @@ docker run -p 80:80 -v "$(pwd):/var/www/html"  hello-world
 
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
+
+
+## Docker Compose
+
+*run in the same dir as docker compose file*
+docker-compose up
+docker-compose up -d < run in the background
+
+*test*
+localhost:5001  < api
+localhost:5000  < website
+
+can now add extra items to the api.py
+
+
+
+## Notes
+
+The containers in the compose file have an network auto created when the compose file is run allowing the containers to communicate based on the names of the containers
+
