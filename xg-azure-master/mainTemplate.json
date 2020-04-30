@@ -24,7 +24,7 @@
         },
         "imageSku": {
             "type": "string",
-            "defaultValue": "byol",
+            "defaultValue": "payg",
             "allowedValues": [
                 "byol",
                 "payg"
