@@ -4,26 +4,14 @@ Deployment template to deploy Sophos XG firewall to Azure
 
 Deployment via template
 -----------------------
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGoDeploy%2FAZ300%2Fmaster%2Fxg-azure-master%2FmainTemplate.json
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fkramit%2FAZ104-Notes%2Fmaster%2Fxg-azure-master%2FmainTemplate.json
 )
 
-Powershell
-----------
 
-start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGoDeploy%2FAZ300%2Fmaster%2Fxg-azure-master%2FmainTemplate.json"
+https://raw.githubusercontent.com/kramit%2FAZ104-Notes%2Fmaster%2Fxg-azure-master%2FmainTemplate.json
 
 
-**If invalid parameters are passed, the deployment will fail.**
-
-Please note:
-* The `adminPassword` has to be minimum 8 characters, **containing at least a lowercase letter, an uppercase letter, a number, and a special character.**
-
-3) Deployment will start.
-
-4) Wait until the deployment goes to state "Succeeded".
-
-***
-
+P
 Connect to the VM instance
 ==========================
 
