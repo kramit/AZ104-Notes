@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "LabTemplate",
+  "itemDisplayName": "Deploy a simple Windows VM with SSMS",
+  "icon": "windowsVM",
+  "description": "This will deploy a simple VM and install SSMS from the internet via a configuration script",
+  "summary": "This template takes a minimum amount of parameters and deploys a Windows VM, using the latest patched version.",
+  "githubUsername": "kramit",
+  "dateUpdated": "2019-20-11"
+}
