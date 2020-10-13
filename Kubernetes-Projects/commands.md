@@ -30,3 +30,6 @@ minikube service web-service
 
 kubectl create -f .\azure-vote.yaml
 
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+
+

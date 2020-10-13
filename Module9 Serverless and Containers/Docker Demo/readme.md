@@ -57,3 +57,11 @@ can now add extra items to the api.py
 
 The containers in the compose file have an network auto created when the compose file is run allowing the containers to communicate based on the names of the containers
 
+To delete all containers including its volumes use,
+
+docker rm -vf $(docker ps -a -q)
+To delete all the images,
+
+docker rmi -f $(docker images -a -q)
+
+
