@@ -5,6 +5,7 @@
 
     <body>
         <h1>Welcome to my shop</h1>
+            <b> take this it's dangerous out there </b>
         <ul>
             <?php
 
