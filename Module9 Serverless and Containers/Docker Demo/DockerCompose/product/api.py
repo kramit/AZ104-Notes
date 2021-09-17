@@ -11,7 +11,7 @@ api = Api(app)
 class Product(Resource):
     def get(self):
         return {
-            'products': ['Ice cream', 'apple', 'Fruit', 'Bananas','Berrys']
+            'products': ['Ice cream', 'pear', 'Fruit', 'Bananas','Berrys','Pineapples']
         }
 
 # Create routes
