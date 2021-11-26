@@ -33,3 +33,6 @@ kubectl create -f .\azure-vote.yaml
 az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 
 
+kubectl scale --replicas 3 deployment/my-todo-app-mean
+
+
