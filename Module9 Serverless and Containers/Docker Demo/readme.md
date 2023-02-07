@@ -19,7 +19,7 @@ https://hub.docker.com/_/php
 docker *argument* *image name* *path to dockerfile*
 
 docker build -t hello-world .
-
+/
 
 ### run cmd
 

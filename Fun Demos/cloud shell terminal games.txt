@@ -1,0 +1,39 @@
+https://www.gnu.org/software/inetutils/
+
+wget https://ftp.gnu.org/gnu/inetutils/inetutils-2.4.tar.gz
+
+o towel.blinkenlights.nl 23
+
+
+o freechess.org
+
+o telehack.com
+zrun
+
+
+wget https://ftp.gnu.org/gnu/inetutils/inetutils-2.4.tar.gz
+ 1586  tar -xvf inetutils-2.4.tar.gz 
+ 1587  cd inetutils-2.4/
+ 1588  ls
+ 1589  configure
+ 1590  sh configure
+ 1591  ls
+ 1592  cd INSTALL
+ 1593  INSTALL
+ 1594  sh INSTALL
+ 1595  make
+ 1596  ls
+ 1597  telnet
+ 1598  ./telnet
+ 1599  cd telnet
+ 1600  ls
+ 1601  telnet
+ 1602  sh telnet
+ 1603  ls -l
+ 1604  ./telnet
+ 1605  history
+
+
+wget https://raw.githubusercontent.com/gabrielrcouto/php-terminal-gameboy-emulator/master/bin/php-gameboy.phar
+$ chmod +x php-gameboy.phar
+$ mv php-gameboy.phar /usr/local/bin/php-gameboy

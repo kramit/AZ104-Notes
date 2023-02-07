@@ -62,7 +62,7 @@ spec:
         image: mcr.microsoft.com/azuredocs/azure-vote-front:v1
         resources:
           requests:
-            cpu: 100m
+            cp****u: 100m
             memory: 128Mi
           limits:
             cpu: 250m

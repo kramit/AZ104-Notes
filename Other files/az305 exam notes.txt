@@ -1,0 +1,150 @@
+Ad Application proxy
+ad enterprise app - legasy app
+a conditional access policy
+
+activity log - all new deployments
+
+ad audit log > event hubs > function > cosmosDb
+
+azure api management for oauth 2.0 to logic apps
+
+LAW + azure monitor agent to pull many logs from vms
+
+Azyre AD PIM
+Azure AD managed identity
+
+blueprints can be assigned to multiple managment groups + subs
+
+
+azure policy effects -- append/modify
+
+
+sql insights logs -- LAW + Storage account
+
+Dynamic data masking for personal information
+
+blobs for SAS kyes v2 customer managed keys
+
+web app to access a key vault use app settings on the webapp to link
+
+user assigned managed ID > linked to multiple
+system managed ID > linked to single
+
+Azure synapse link for cosmosdb > inbound data analytics without db perf drop and no ETL pipeline
+
+sql instights data in blob is setting 
+LAW max 730days for logs, def 30days
+
+Password Based SSO
+
+Bastion not JIT 
+
+Conditional access pol + windows VM Cloud App
+
+Enforce Tags to Identify resources
+
+B2B Colaboration > guest accounts
+
+Ad provisioning service
+
+Web API access via AzureAD + JSON Web Token (JWT) via API management
+
+AD entitlement management and access packages <<<
+
+Stored procedures CLR
+-SQL Elastic Pools
+-SQL Managed Instance
+-SQL on a vm
+
+azure data factory > import + transform
+
+azure service bus queue > FIFO first in first out
+- topic > one to many
+
+
+event grid + apache kafka
+
+
+
+blob vs block blob
+premium vs standard
+
+page blob for vhds
+
+sql elastic pool > varying usage patterns
+
+sql online transaction proccessing
+	SQL tiers - Basic
+					biz crit > fastest
+					gen purpose
+					premium
+					hyperscale > up to 100 TB
+
+
+IOT hub time series insights - temporal ordering > real time display
+
+cosmosDb > multi-master write, low latency read
+
+sql audit can write to diff log analytics regions
+			cannot write to a diff storage region
+
+onsite to cloud sql DMA tool
+onsite to cosmos cosmosdb migration tool
+
+data factory auto upload pipeline
+
+sql managed instances allow server side transactions
+ACID database tranactions
+
+stored procedure = multiple SQL statements
+
+T-SQL Transact Sql
+
+database premium supports redundent replicas
+
+storage account resource lock to make data read-only
+
+50TB relational data
+
+net app + netapp files
+
+azure site recovery > automated recovery 15min RTO
+
+RTO > oldest able to recover
+RPO > Most recent copy
+
+key vauklt auto-replicated to a paired region >failover disables write/delete op
+
+
+azure adds LDAP apps in the cloud
+
+AADDS  > LDAP in cloud
+AAD > Azure AD oauth modern
+ADDS > Local DC's
+
+function plans - premium
+					consumption
+					serverless
+
+azure filesync to file share storage
+
+one premisis data gateway > sql docker container to act as cache (check this)
+
+data factory connects to a "self-hosted intergration runtime" for on-site files
+
+AKS cluster autoscaler > scales nodes
+	horizontal pod autoscaler > scales pods
+
+access reviews + PIM
+
+
+
+
+
+
+
+
+
+
+
+
