@@ -1,0 +1,14 @@
+SELECT * FROM file where category='KQL' and queryType='query'
+commands
+are
+case-sensitive
+so
+make
+sure
+to
+use
+lowercase
+for
+the
+file
+name.

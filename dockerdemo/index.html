@@ -1,0 +1,36 @@
+<!-- Index Page  -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Hello World</title>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <p>This is a simple HTML page that displays "Hello, world!" in large letters.</p>
+<canvas id="myCanvas"></canvas>
+    <script src="game.js"></script>
+  </body>
+</html>
+
+
+// game.js file
+var canvas  = document.getElementById('myCanvas');
+canvas.width  = window.innerWidth;
+canvas.height  = window.innerHeight;
+var ctx  = canvas.getContext('2d');
+
+  // Draw a green circle in the middle of the screen with a radius of 10 pixels
+  ctx.beginPath();
+  ctx.arc(canvas.width / 2, canvas.height / 2, 10, 0, Math.PI * 2);
+  ctx.fillStyle = "#00ff00";
+  ctx.fill();
+
+  canvas.onclick = function() {
+    var xpos = (Math.random()*canvas.width)/5;
+    var ypos = (Math.random()*canvas.height)/5;
+    ctx.beginPath();
+    ctx.arc(xpos,ypos, 10, 0, Math.PI * 2);
+    ctx.fillStyle = "#00ff00";
+    ctx.fill();
+  }
+</script>
