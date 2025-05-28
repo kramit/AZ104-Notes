@@ -12,7 +12,7 @@ API Permissions (Application Type)
 # Define App Registration details
 $tenantId = "2bf0f2d8-74f9-4288-b5d9-266cd13cc4ce"
 $clientId = "3091deb9-2a1f-4ad0-bbf4-2a5da429fb83"
-$clientSecret = "l728Q~13ZxwTa-FFXSG7MN7n4Bn5t2EXSyRTwaBI"
+$clientSecret = ""
 
 # Define the resource for Azure Management API
 $resource = "https://management.azure.com/"
