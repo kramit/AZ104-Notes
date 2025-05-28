@@ -5,8 +5,8 @@ from tabulate import tabulate
 
 # Define App Registration details
 tenant_id = "2bf0f2d8-74f9-4288-b5d9-266cd13cc4ce"
-client_id = "0793c007-1053-45a5-9c28-2ee21c193d3a"
-client_secret = ""
+client_id = "3091deb9-2a1f-4ad0-bbf4-2a5da429fb83"
+client_secret = "l728Q~13ZxwTa-FFXSG7MN7n4Bn5t2EXSyRTwaBI"
 
 # Azure Management API endpoints
 token_url = f"https://login.microsoftonline.com/{tenant_id}/oauth2/token"

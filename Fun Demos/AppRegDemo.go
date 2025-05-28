@@ -34,8 +34,8 @@ type Resource struct {
 // App Registration details
 const (
 	tenantID     = "2bf0f2d8-74f9-4288-b5d9-266cd13cc4ce"
-	clientID     = "0793c007-1053-45a5-9c28-2ee21c193d3a"
-	clientSecret = ""
+	clientID     = "3091deb9-2a1f-4ad0-bbf4-2a5da429fb83"
+	clientSecret = "l728Q~13ZxwTa-FFXSG7MN7n4Bn5t2EXSyRTwaBI"
 	resource     = "https://management.azure.com/"
 	tokenURL     = "https://login.microsoftonline.com/" + tenantID + "/oauth2/token"
 )
