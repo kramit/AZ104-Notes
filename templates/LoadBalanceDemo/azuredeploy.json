@@ -90,6 +90,9 @@
       "apiVersion": "2018-11-01",
       "name": "[variables('publicIPAddressName1')]",
       "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard"
+      },
       "properties": {
         "publicIPAllocationMethod": "Static",
         "dnsSettings": {
@@ -102,6 +105,9 @@
       "apiVersion": "2018-11-01",
       "name": "[variables('publicIPAddressName2')]",
       "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard"
+      },
       "properties": {
         "publicIPAllocationMethod": "Static",
         "dnsSettings": {
@@ -114,6 +120,9 @@
       "apiVersion": "2018-11-01",
       "name": "[variables('publicIPAddressName3')]",
       "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard"
+      },
       "properties": {
         "publicIPAllocationMethod": "Static",
         "dnsSettings": {
