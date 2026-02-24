@@ -1,4 +1,4 @@
-// storage.bicep
+// storageaccount.bicep
 targetScope = 'resourceGroup'
 
 @description('Storage account name (3-24 chars, lowercase letters and numbers only). Must be globally unique.')
