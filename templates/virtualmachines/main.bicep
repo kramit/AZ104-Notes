@@ -149,7 +149,7 @@ resource vmCustomScript 'Microsoft.Compute/virtualMachines/extensions@2021-11-01
     autoUpgradeMinorVersion: true
     settings: {
       fileUris: [
-        'https://raw.githubusercontent.com/kramit/AZ104-Notes-1/master/templates/virtualmachines/customscript.ps1'
+        'https://raw.githubusercontent.com/kramit/AZ104-Notes/master/templates/virtualmachines/customscript.ps1'
       ]
       commandToExecute: 'powershell.exe -ExecutionPolicy Unrestricted -File customscript.ps1'
     }

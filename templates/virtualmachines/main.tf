@@ -98,7 +98,10 @@ resource "azurerm_network_interface" "nic" {
     private_ip_address_allocation = "Dynamic"
     public_ip_address_id          = azurerm_public_ip.pip.id
   }
+}
 
+resource "azurerm_network_interface_security_group_association" "nic_nsg" {
+  network_interface_id      = azurerm_network_interface.nic.id
   network_security_group_id = azurerm_network_security_group.nsg.id
 }
 
@@ -139,7 +142,7 @@ resource "azurerm_virtual_machine_extension" "lab_tools_custom_script" {
 
   settings = jsonencode({
     fileUris = [
-      "https://raw.githubusercontent.com/kramit/AZ104-Notes-1/master/templates/virtualmachines/customscript.ps1"
+      "https://raw.githubusercontent.com/kramit/AZ104-Notes/master/templates/virtualmachines/customscript.ps1"
     ]
     commandToExecute = "powershell.exe -ExecutionPolicy Unrestricted -File customscript.ps1"
   })

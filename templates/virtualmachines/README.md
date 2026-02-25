@@ -16,6 +16,8 @@ Templates:
 
 > **Important**: These are **lab/demo** templates. Do not use as‑is in production (for example, RDP is open to the internet and admin credentials are simple parameters).
 
+**Custom script URL**: The templates download `customscript.ps1` from GitHub. The URL in all three templates is `https://raw.githubusercontent.com/kramit/AZ104-Notes/master/templates/virtualmachines/customscript.ps1`. If you use a fork or a different repo, update the script URL in `azuredeploy.json`, `main.bicep`, and `main.tf` to match your repo and branch (e.g. `main` instead of `master`).
+
 ---
 
 ## Prerequisites
